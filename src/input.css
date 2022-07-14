@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+}
+
+.navbar-fixed{
+    @apply fixed z-[9999]  bg-opacity-80 bg-gray-800 backdrop-blur-sm;
+}
